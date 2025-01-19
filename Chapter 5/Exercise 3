@@ -1,0 +1,21 @@
+# Now that you know how to loop through a dictionary, clean up the code from Exercise 6-3 (page 99) by replacing your series of print() 
+# calls with a loop that runs through the dictionary’s keys and values. When you’re sure that your loop works, add five more Python terms 
+# to your glossary.When you run your program again, these new words and meanings should automatically be included in the output.
+
+glossary = {
+    "variable": "A name given to a value.",
+    "loop": "A block of code that repeats until a certain condition is met.",
+    "list": "A collection of items that can be of any data type.",
+    "function": "A block of code that can be executed multiple times from different parts of your program.",
+    "conditional statement": "A statement that executes a block of code if a certain condition is true.",
+    "dictionary": "A collection of key-value pairs.",
+    "tuple": "A collection of items that cannot be changed.",
+    "class": "A blueprint for creating objects.",
+    "object": "An instance of a class.",
+    "module": "A file that contains a collection of related functions and variables."
+}
+
+# Print each word and its meaning
+for word, meaning in glossary.items():
+    print(f"{word}:")
+    print(f"  {meaning}\n")

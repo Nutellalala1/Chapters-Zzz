@@ -1,0 +1,13 @@
+#Find a quote from a famous person you admire. Print the quote and the name of its author. 
+#
+#Your output should look something like the following, including the quotation marks:
+#
+#Albert Einstein once said, “A person who never made a mistake never tried anything new.
+
+
+
+quote = "Love never gives up, never loses faith, is always hopeful, and endures through every circumstances."
+author = "Paul"
+verse = "1 Corinthians 13:7"
+
+print ("in " + verse + ", " + author + " wrote '" + quote + "'")

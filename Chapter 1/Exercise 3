@@ -1,0 +1,6 @@
+print ("Date and Time")
+import datetime
+x = datetime.datetime.now()
+x = x.strftime("%Y-%m-%d %H:%M:%S")
+
+print(x)

@@ -1,0 +1,4 @@
+print ("Python version") # print the version of Python
+
+import sys
+print(sys.version) 

@@ -1,0 +1,5 @@
+Var_1 = "Hello "
+Var_2 = "World "
+Var_3 = "!"
+
+print(Var_1 + Var_2 + Var_3)

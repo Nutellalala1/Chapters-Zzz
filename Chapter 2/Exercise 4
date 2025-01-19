@@ -1,0 +1,8 @@
+x = "8"
+print ('my favorite number looks like a snowman with two holes')
+print ('can you guess what it is?')
+input = input()
+if input == x:
+    print ('correct')
+else:
+    print ('wrong!, its 8!')
